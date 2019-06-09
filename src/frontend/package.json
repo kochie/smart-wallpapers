@@ -1,0 +1,26 @@
+{
+  "name": "smart-wallpapers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "now dev",
+    "tcm:scss": "tcm -p components/**/*.scss",
+    "now-build": "next build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.8.19",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "fannypack": "^4.19.23",
+    "next": "^8.1.0",
+    "next-compose-plugins": "^2.2.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
